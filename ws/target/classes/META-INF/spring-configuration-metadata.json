@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "name": "hoaxify",
+      "type": "com.hoaxify.ws.configuration.HoaxifyProperties",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties"
+    },
+    {
+      "name": "hoaxify.client",
+      "type": "com.hoaxify.ws.configuration.HoaxifyProperties$Client",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties",
+      "sourceMethod": "getClient()"
+    },
+    {
+      "name": "hoaxify.email",
+      "type": "com.hoaxify.ws.configuration.HoaxifyProperties$Email",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties",
+      "sourceMethod": "getEmail()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hoaxify.client.host",
+      "type": "java.lang.String",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties$Client"
+    },
+    {
+      "name": "hoaxify.email.from",
+      "type": "java.lang.String",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties$Email"
+    },
+    {
+      "name": "hoaxify.email.host",
+      "type": "java.lang.String",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties$Email"
+    },
+    {
+      "name": "hoaxify.email.password",
+      "type": "java.lang.String",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties$Email"
+    },
+    {
+      "name": "hoaxify.email.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties$Email",
+      "defaultValue": 0
+    },
+    {
+      "name": "hoaxify.email.username",
+      "type": "java.lang.String",
+      "sourceType": "com.hoaxify.ws.configuration.HoaxifyProperties$Email"
+    }
+  ],
+  "hints": []
+}
